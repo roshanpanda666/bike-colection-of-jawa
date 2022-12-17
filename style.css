@@ -1,0 +1,184 @@
+body{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+#jawa-logo{
+    height: 60px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+.chose{
+    display: contents;
+    text-align: center;
+    
+}
+.chosetext{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 40px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.box1{
+    height: 300px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    border: 1px solid ;
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    transition-duration: 0.50s;
+    
+}
+.box2{
+    height: 300px;
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    transition-duration: 0.50s;
+}
+.box3{
+    height: 300px;
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    transition-duration: 0.50s;
+}
+.box4{
+    height: 300px;
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    transition-duration: 0.50s;
+
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#sloganimg{
+    width: 1150px;
+    justify-content: center;
+}
+.textb1{
+    
+    color: burlywood;
+
+}
+#perakimg{
+    width: 200px;
+    height: 140px;
+    margin-top: 50px;
+}
+
+.textb2{
+    color: silver;
+}
+#clasicimg{
+    width: 200px;
+    height: 140px;
+    margin-top: 80px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.textb3{
+    color: silver;
+}
+#jawa42{
+    width: 200px;
+    height: 140px;
+    margin-top: 60px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+}
+.textb4{
+    color: rgb(142, 47, 0);
+}
+#jawa42bobber{
+    width: 200px;
+    height: 140px;
+    margin-top: 79px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+
+}
+
+.box1:hover{
+    height: 310px;
+    width: 210px;
+    color: rgb(69, 0, 0);
+    border: 1px solid ;
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    
+    
+    
+}
+.box2:hover{
+    height: 310px;
+    width: 210px;
+    color: rgb(69, 0, 0);
+    border: 1px solid ;
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    
+    
+}
+.box3:hover{
+    height: 310px;
+    width: 210px;
+    color: rgb(69, 0, 0);
+    border: 1px solid ;
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    
+    
+}
+.box4:hover{
+    height: 310px;
+    width: 210px;
+    color: rgb(69, 0, 0);
+    border: 1px solid ;
+    border-radius:30px;
+    margin:40px;
+    text-align: center;
+    
+    
+}
+
+
+@media only screen and (max-width: 450px){
+
+    #sloganimg{
+        width: 380px;
+    }
+        
+
+}
